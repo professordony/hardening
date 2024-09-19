@@ -1,13 +1,16 @@
 #!/bin/bash
 
+#This script was create to works likea a base to apply hardening verifications on the Linux Systems using CIS Benchmark good pratices. 
+#Include now only a few tests. You can modify and expand CIS tests verifications.
+
 # Define a log file for the script execution
 LOGFILE="/var/log/cis_hardening_check.log"
 exec > >(tee -a ${LOGFILE}) 2>&1
 
-echo "======================================"
-echo "CIS Hardening Verification Script"
+echo "======================================="
+echo "CIS Basic Hardening Verification Script"
 echo "Date: $(date)"
-echo "======================================"
+echo "======================================="
 
 # Function to check if the user is root
 check_root() {
