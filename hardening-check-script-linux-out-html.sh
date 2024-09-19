@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Este script foi criado para funcionar como uma base para aplicar verificações de hardening em sistemas Linux usando as boas práticas do CIS Benchmark. 
+# Este script foi criado para funcionar como uma base para aplicar verificações de hardening em sistemas Linux usando as boas práticas do CIS Benchmark. 
 # Incluido até o momento apenas alguns testes. Você pode modificar e expandir as verificações dos testes CIS.
 
 # Define o arquivo de log HTML
